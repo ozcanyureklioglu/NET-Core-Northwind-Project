@@ -1,0 +1,254 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/ozcanyureklioglu/Projects/MyFinalProject/Business/Business.csproj": {}
+  },
+  "projects": {
+    "/Users/ozcanyureklioglu/Projects/MyFinalProject/Business/Business.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/ozcanyureklioglu/Projects/MyFinalProject/Business/Business.csproj",
+        "projectName": "Business",
+        "projectPath": "/Users/ozcanyureklioglu/Projects/MyFinalProject/Business/Business.csproj",
+        "packagesPath": "/Users/ozcanyureklioglu/.nuget/packages/",
+        "outputPath": "/Users/ozcanyureklioglu/Projects/MyFinalProject/Business/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/ozcanyureklioglu/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "/Users/ozcanyureklioglu/Projects/MyFinalProject/DataAccess/DataAccess.csproj": {
+                "projectPath": "/Users/ozcanyureklioglu/Projects/MyFinalProject/DataAccess/DataAccess.csproj"
+              },
+              "/Users/ozcanyureklioglu/Projects/MyFinalProject/Entities/Entities.csproj": {
+                "projectPath": "/Users/ozcanyureklioglu/Projects/MyFinalProject/Entities/Entities.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.400/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/ozcanyureklioglu/Projects/MyFinalProject/Core/Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/ozcanyureklioglu/Projects/MyFinalProject/Core/Core.csproj",
+        "projectName": "Core",
+        "projectPath": "/Users/ozcanyureklioglu/Projects/MyFinalProject/Core/Core.csproj",
+        "packagesPath": "/Users/ozcanyureklioglu/.nuget/packages/",
+        "outputPath": "/Users/ozcanyureklioglu/Projects/MyFinalProject/Core/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/ozcanyureklioglu/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.400/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/ozcanyureklioglu/Projects/MyFinalProject/DataAccess/DataAccess.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/ozcanyureklioglu/Projects/MyFinalProject/DataAccess/DataAccess.csproj",
+        "projectName": "DataAccess",
+        "projectPath": "/Users/ozcanyureklioglu/Projects/MyFinalProject/DataAccess/DataAccess.csproj",
+        "packagesPath": "/Users/ozcanyureklioglu/.nuget/packages/",
+        "outputPath": "/Users/ozcanyureklioglu/Projects/MyFinalProject/DataAccess/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/ozcanyureklioglu/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "/Users/ozcanyureklioglu/Projects/MyFinalProject/Core/Core.csproj": {
+                "projectPath": "/Users/ozcanyureklioglu/Projects/MyFinalProject/Core/Core.csproj"
+              },
+              "/Users/ozcanyureklioglu/Projects/MyFinalProject/Entities/Entities.csproj": {
+                "projectPath": "/Users/ozcanyureklioglu/Projects/MyFinalProject/Entities/Entities.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[5.0.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.400/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/ozcanyureklioglu/Projects/MyFinalProject/Entities/Entities.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/ozcanyureklioglu/Projects/MyFinalProject/Entities/Entities.csproj",
+        "projectName": "Entities",
+        "projectPath": "/Users/ozcanyureklioglu/Projects/MyFinalProject/Entities/Entities.csproj",
+        "packagesPath": "/Users/ozcanyureklioglu/.nuget/packages/",
+        "outputPath": "/Users/ozcanyureklioglu/Projects/MyFinalProject/Entities/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/ozcanyureklioglu/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "/Users/ozcanyureklioglu/Projects/MyFinalProject/Core/Core.csproj": {
+                "projectPath": "/Users/ozcanyureklioglu/Projects/MyFinalProject/Core/Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.400/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

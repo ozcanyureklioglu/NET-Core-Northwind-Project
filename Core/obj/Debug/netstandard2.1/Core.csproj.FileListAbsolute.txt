@@ -1,0 +1,10 @@
+/Users/ozcanyureklioglu/Projects/MyFinalProject/Core/bin/Debug/netstandard2.1/Core.deps.json
+/Users/ozcanyureklioglu/Projects/MyFinalProject/Core/bin/Debug/netstandard2.1/Core.dll
+/Users/ozcanyureklioglu/Projects/MyFinalProject/Core/bin/Debug/netstandard2.1/Core.pdb
+/Users/ozcanyureklioglu/Projects/MyFinalProject/Core/obj/Debug/netstandard2.1/Core.csproj.AssemblyReference.cache
+/Users/ozcanyureklioglu/Projects/MyFinalProject/Core/obj/Debug/netstandard2.1/Core.GeneratedMSBuildEditorConfig.editorconfig
+/Users/ozcanyureklioglu/Projects/MyFinalProject/Core/obj/Debug/netstandard2.1/Core.AssemblyInfoInputs.cache
+/Users/ozcanyureklioglu/Projects/MyFinalProject/Core/obj/Debug/netstandard2.1/Core.AssemblyInfo.cs
+/Users/ozcanyureklioglu/Projects/MyFinalProject/Core/obj/Debug/netstandard2.1/Core.csproj.CoreCompileInputs.cache
+/Users/ozcanyureklioglu/Projects/MyFinalProject/Core/obj/Debug/netstandard2.1/Core.dll
+/Users/ozcanyureklioglu/Projects/MyFinalProject/Core/obj/Debug/netstandard2.1/Core.pdb

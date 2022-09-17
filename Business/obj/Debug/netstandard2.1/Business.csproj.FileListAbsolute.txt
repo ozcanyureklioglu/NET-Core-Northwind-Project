@@ -1,0 +1,17 @@
+/Users/ozcanyureklioglu/Projects/MyFinalProject/Business/bin/Debug/netstandard2.1/Business.deps.json
+/Users/ozcanyureklioglu/Projects/MyFinalProject/Business/bin/Debug/netstandard2.1/Business.dll
+/Users/ozcanyureklioglu/Projects/MyFinalProject/Business/bin/Debug/netstandard2.1/Business.pdb
+/Users/ozcanyureklioglu/Projects/MyFinalProject/Business/bin/Debug/netstandard2.1/DataAccess.dll
+/Users/ozcanyureklioglu/Projects/MyFinalProject/Business/bin/Debug/netstandard2.1/Entities.dll
+/Users/ozcanyureklioglu/Projects/MyFinalProject/Business/bin/Debug/netstandard2.1/DataAccess.pdb
+/Users/ozcanyureklioglu/Projects/MyFinalProject/Business/bin/Debug/netstandard2.1/Entities.pdb
+/Users/ozcanyureklioglu/Projects/MyFinalProject/Business/obj/Debug/netstandard2.1/Business.csproj.AssemblyReference.cache
+/Users/ozcanyureklioglu/Projects/MyFinalProject/Business/obj/Debug/netstandard2.1/Business.GeneratedMSBuildEditorConfig.editorconfig
+/Users/ozcanyureklioglu/Projects/MyFinalProject/Business/obj/Debug/netstandard2.1/Business.AssemblyInfoInputs.cache
+/Users/ozcanyureklioglu/Projects/MyFinalProject/Business/obj/Debug/netstandard2.1/Business.AssemblyInfo.cs
+/Users/ozcanyureklioglu/Projects/MyFinalProject/Business/obj/Debug/netstandard2.1/Business.csproj.CoreCompileInputs.cache
+/Users/ozcanyureklioglu/Projects/MyFinalProject/Business/obj/Debug/netstandard2.1/Business.csproj.CopyComplete
+/Users/ozcanyureklioglu/Projects/MyFinalProject/Business/obj/Debug/netstandard2.1/Business.dll
+/Users/ozcanyureklioglu/Projects/MyFinalProject/Business/obj/Debug/netstandard2.1/Business.pdb
+/Users/ozcanyureklioglu/Projects/MyFinalProject/Business/bin/Debug/netstandard2.1/Core.dll
+/Users/ozcanyureklioglu/Projects/MyFinalProject/Business/bin/Debug/netstandard2.1/Core.pdb
