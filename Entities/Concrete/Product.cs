@@ -10,7 +10,7 @@ namespace Entities.Concrete
         {
         }
 
-        //public int product_id { get; set; }
+        public int product_id { get; set; }
 
         public int category_id { get; set; }
 
