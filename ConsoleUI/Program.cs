@@ -10,7 +10,7 @@ namespace ConsoleUI
     {
         static void Main(string[] args)
         {
-            CategoryTest();
+            ProductTest();
 
 
         }
@@ -18,9 +18,9 @@ namespace ConsoleUI
         private static void ProductTest()
         {
             ProductManager productManager = new ProductManager(new EfProductDal());
-            foreach (var p in productManager.GetAllByUnitPrice(1, 20))
+            foreach (var p in productManager.GetProductDetail())
             {
-                Console.WriteLine(p.unit_price);
+                Console.WriteLine(p.product_name+" -- "+p.category_name);
 
             }
         }
