@@ -8,15 +8,15 @@ namespace Business.Abstract
 {
     public interface IProductService
     {
-        List<Product> GetAll();
+        IDataResult<List<Product>> GetAll();
 
-        List<Product> GetAllByCategoryId(int id);
+        IDataResult<List<Product>> GetAllByCategoryId(int id);
 
-        List<Product> GetAllByUnitPrice(int min, int max);
+        IDataResult<List<Product>> GetAllByUnitPrice(int min, int max);
 
-        List<ProductDetailDto> GetProductDetail();
+        IDataResult<List<ProductDetailDto>> GetProductDetail();
 
-        Product GetById(int productId);
+        IDataResult<Product> GetById(int productId);
 
         IResults Add(Product product);
 

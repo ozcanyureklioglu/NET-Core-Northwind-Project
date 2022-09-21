@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using Business.Abstract;
+using Business.Constant;
 using Core.Utilities.Results;
 using DataAccess.Abstract;
 using DataAccess.Concrete.InMemory;
@@ -20,36 +21,46 @@ namespace Business.Concrete
 
         public IResults Add(Product product)
         {
+            if (product.product_name.Length < 2)
+            {
+                return new ErrorResult(Messages.ProductNameInvalid);
+            }
             _ProductDal.Add(product);
 
-            return new Result(true,"Ürün eklendi.");
+            return new SuccessResult(Messages.ProductAdded);
 
         }
 
-        public List<Product> GetAll()
+        public IDataResult<List<Product>> GetAll()
         {
-            return _ProductDal.GetAll();
+            if (DateTime.Now.Hour == 16)
+            {
+                return new ErrorDataResult<List<Product>>(Messages.MaintenanceTime);
+            }
+
+            return new SuccessDataResult<List<Product>>(_ProductDal.GetAll(),Messages.ProductsListed);
         }
 
-        public List<Product> GetAllByCategoryId(int id)
+        public IDataResult<List<Product>> GetAllByCategoryId(int id)
         {
-            return _ProductDal.GetAll(p => p.category_id == id);
+            return new SuccessDataResult<List<Product>>(_ProductDal.GetAll(p => p.category_id == id));
         }
 
-        public List<Product> GetAllByUnitPrice(int min, int max)
+        public IDataResult<List<Product>> GetAllByUnitPrice(int min, int max)
         {
-            return _ProductDal.GetAll(p => p.unit_price >= min && p.unit_price <= max);
+            return new SuccessDataResult<List<Product>>(_ProductDal.GetAll(p => p.unit_price >= min && p.unit_price <= max));
         }
 
-        public Product GetById(int productId)
+        public IDataResult<Product> GetById(int productId)
         {
-            return _ProductDal.Get(p => p.product_id == productId);
+            return new SuccessDataResult<Product>(_ProductDal.Get(p => p.product_id == productId));
         }
 
-        public List<ProductDetailDto> GetProductDetail()
+        public IDataResult<List<ProductDetailDto>> GetProductDetail()
         {
-            return _ProductDal.getProductDetails();
+            return new SuccessDataResult<List<ProductDetailDto>>(_ProductDal.getProductDetails());
         }
+
     }
 }
 
