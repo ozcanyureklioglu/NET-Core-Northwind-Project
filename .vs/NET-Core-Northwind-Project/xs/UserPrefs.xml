@@ -1,31 +1,28 @@
-﻿<Properties StartupConfiguration="{71DD5DC2-E69C-4928-B0C3-0D06BA81451D}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Core/Utilities/Results/Result.cs">
+﻿<Properties StartupConfiguration="{7984813A-961D-4B59-A81A-247017AD6F16}|Default">
+  <MonoDevelop.Ide.ItemProperties.WebAPI PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.ItemProperties.ConsoleUI PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="WebAPI/Controllers/ProductsController.cs">
     <Files>
-      <File FileName="ConsoleUI/Program.cs" Line="1" Column="1" />
-      <File FileName="Business/Concrete/ProductManager.cs" Line="25" Column="50" />
-      <File FileName="DataAccess/Concrete/EntityFramework/EfProductDal.cs" Line="1" Column="1" />
-      <File FileName="Business/Abstract/IProductService.cs" Line="21" Column="17" />
-      <File FileName="DataAccess/Abstract/IProductDal.cs" Line="1" Column="1" />
-      <File FileName="Entities/Concrete/Product.cs" Line="13" Column="9" />
-      <File FileName="Entities/DTOs/ProductDetailDto.cs" Line="1" Column="1" />
-      <File FileName="Core/Utilities/Results/IResults.cs" Line="8" Column="30" />
-      <File FileName="Core/Utilities/Results/Result.cs" Line="8" Column="66" />
+      <File FileName="WebAPI/Controllers/ProductsController.cs" Line="5" Column="25" />
+      <File FileName="WebAPI/Program.cs" Line="27" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="NET-Core-Northwind-Project" expanded="True">
-            <Node name="Business" expanded="True">
-              <Node name="Abstract" expanded="True" />
+            <Node name="Entities" expanded="True">
               <Node name="Concrete" expanded="True" />
             </Node>
-            <Node name="Core" expanded="True">
-              <Node name="Utilities" expanded="True">
-                <Node name="Results" expanded="True" />
+            <Node name="WebAPI" expanded="True">
+              <Node name="Controllers" expanded="True">
+                <Node name="ProductsController.cs" selected="True" />
               </Node>
-            </Node>
-            <Node name="DataAccess" expanded="True">
-              <Node name="Abstract" expanded="True" />
             </Node>
           </Node>
         </State>
@@ -35,11 +32,4 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.ConsoleUI PreferredExecutionTarget="MonoDevelop.Default" />
 </Properties>

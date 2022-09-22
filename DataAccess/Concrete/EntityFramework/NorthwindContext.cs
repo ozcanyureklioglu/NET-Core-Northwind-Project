@@ -13,7 +13,7 @@ namespace DataAccess.Concrete.EntityFramework
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-            modelBuilder.Entity<Product>().HasNoKey();
+            //modelBuilder.Entity<Product>().HasNoKey();
             modelBuilder.Entity<Category>().HasNoKey();
             modelBuilder.Entity<Order>().HasNoKey();
         }
