@@ -2,11 +2,15 @@
 using System.Collections.Generic;
 using Business.Abstract;
 using Business.Constant;
+using Business.ValidationRules.FluentValidation;
+using Core.Aspects.Autofac.Validation;
+using Core.CrossCuttingConcerns.Validation;
 using Core.Utilities.Results;
 using DataAccess.Abstract;
 using DataAccess.Concrete.InMemory;
 using Entities.Concrete;
 using Entities.DTOs;
+using FluentValidation;
 
 namespace Business.Concrete
 {
@@ -19,12 +23,11 @@ namespace Business.Concrete
             _ProductDal = productDal;
         }
 
+        [ValidationAspect(typeof(ProductValidator))]
         public IResults Add(Product product)
         {
-            if (product.product_name.Length < 2)
-            {
-                return new ErrorResult(Messages.ProductNameInvalid);
-            }
+            
+            ValidationTool.Validate(new ProductValidator(), product);
             _ProductDal.Add(product);
 
             return new SuccessResult(Messages.ProductAdded);

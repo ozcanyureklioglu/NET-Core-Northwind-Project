@@ -156,3 +156,8 @@
 /Users/ozcanyureklioglu/Projects/MyFinalProject/WebAPI/bin/Debug/netcoreapp3.1/Entities.pdb
 /Users/ozcanyureklioglu/Projects/MyFinalProject/WebAPI/bin/Debug/netcoreapp3.1/Core.pdb
 /Users/ozcanyureklioglu/Projects/MyFinalProject/WebAPI/bin/Debug/netcoreapp3.1/Business.pdb
+/Users/ozcanyureklioglu/Projects/MyFinalProject/WebAPI/bin/Debug/netcoreapp3.1/Autofac.dll
+/Users/ozcanyureklioglu/Projects/MyFinalProject/WebAPI/bin/Debug/netcoreapp3.1/Autofac.Extensions.DependencyInjection.dll
+/Users/ozcanyureklioglu/Projects/MyFinalProject/WebAPI/bin/Debug/netcoreapp3.1/Autofac.Extras.DynamicProxy.dll
+/Users/ozcanyureklioglu/Projects/MyFinalProject/WebAPI/bin/Debug/netcoreapp3.1/Castle.Core.dll
+/Users/ozcanyureklioglu/Projects/MyFinalProject/WebAPI/bin/Debug/netcoreapp3.1/FluentValidation.dll

@@ -1,9 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "wvm2x4qDd4WRyzxUObs/j6Xr+85Tddjk79gGKt3u/TgAoDB2GKrDGfZrHzgu6yb/0eUNn2G/qrDObrAMHbbJnQ==",
+  "dgSpecHash": "/RFouBOXdHqNCc1z+4hrM+HnzAUlEXyZvHPFk7qwgdemMEYbskze23Pl0b9dQJ4HtxkUD61wrp0ukYy6DXUU2w==",
   "success": true,
   "projectFilePath": "/Users/ozcanyureklioglu/Projects/MyFinalProject/DataAccess/DataAccess.csproj",
   "expectedPackageFiles": [
+    "/Users/ozcanyureklioglu/.nuget/packages/autofac/6.4.0/autofac.6.4.0.nupkg.sha512",
+    "/Users/ozcanyureklioglu/.nuget/packages/autofac.extensions.dependencyinjection/6.0.0/autofac.extensions.dependencyinjection.6.0.0.nupkg.sha512",
+    "/Users/ozcanyureklioglu/.nuget/packages/autofac.extras.dynamicproxy/6.0.1/autofac.extras.dynamicproxy.6.0.1.nupkg.sha512",
+    "/Users/ozcanyureklioglu/.nuget/packages/castle.core/4.4.0/castle.core.4.4.0.nupkg.sha512",
+    "/Users/ozcanyureklioglu/.nuget/packages/fluentvalidation/11.2.2/fluentvalidation.11.2.2.nupkg.sha512",
     "/Users/ozcanyureklioglu/.nuget/packages/microsoft.bcl.asyncinterfaces/1.0.0/microsoft.bcl.asyncinterfaces.1.0.0.nupkg.sha512",
     "/Users/ozcanyureklioglu/.nuget/packages/microsoft.csharp/4.5.0/microsoft.csharp.4.5.0.nupkg.sha512",
     "/Users/ozcanyureklioglu/.nuget/packages/microsoft.data.sqlclient/2.0.1/microsoft.data.sqlclient.2.0.1.nupkg.sha512",
@@ -68,6 +73,7 @@
     "/Users/ozcanyureklioglu/.nuget/packages/system.diagnostics.diagnosticsource/5.0.1/system.diagnostics.diagnosticsource.5.0.1.nupkg.sha512",
     "/Users/ozcanyureklioglu/.nuget/packages/system.diagnostics.process/4.3.0/system.diagnostics.process.4.3.0.nupkg.sha512",
     "/Users/ozcanyureklioglu/.nuget/packages/system.diagnostics.tools/4.3.0/system.diagnostics.tools.4.3.0.nupkg.sha512",
+    "/Users/ozcanyureklioglu/.nuget/packages/system.diagnostics.tracesource/4.3.0/system.diagnostics.tracesource.4.3.0.nupkg.sha512",
     "/Users/ozcanyureklioglu/.nuget/packages/system.diagnostics.tracing/4.3.0/system.diagnostics.tracing.4.3.0.nupkg.sha512",
     "/Users/ozcanyureklioglu/.nuget/packages/system.dynamic.runtime/4.3.0/system.dynamic.runtime.4.3.0.nupkg.sha512",
     "/Users/ozcanyureklioglu/.nuget/packages/system.globalization/4.3.0/system.globalization.4.3.0.nupkg.sha512",
